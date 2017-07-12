@@ -4,6 +4,7 @@ const querystring = require("querystring"),
 fs = require("fs"),
 formidable = require("formidable");
 
+'res'
 function start(res) {
 	console.log("Request handler 'start' was called.");
 
@@ -29,6 +30,7 @@ function start(res) {
 	res.end();
 }
 
+'upload'
 function upload(res, req) {
 	console.log("Request handler 'upload' was called.");
 
